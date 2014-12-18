@@ -18,13 +18,13 @@ int main(int argc, char *argv[])
     MyDialog w;
     w.show();
 
-    QFile qssFile("./style.qss");
+    /*QFile qssFile("./style.qss");
     qssFile.open(QFile::ReadOnly);
     if(qssFile.isOpen())
     {
         QString qss = QLatin1String(qssFile.readAll());
         app.setStyleSheet(qss);
         qssFile.close();
-    }
+    }*/
     return app.exec();
 }
